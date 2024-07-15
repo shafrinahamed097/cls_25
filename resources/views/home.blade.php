@@ -13,3 +13,5 @@
  @else
  <h1>Grade: F</h1>
  @endif
+
+ <img src="{{asset('https://captainbinary.com/images/hero-img.svg')}}">
