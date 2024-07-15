@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     function HomePage(){
-        $num1=100;
-        $num2=200;
+        $num1=50;
+        $num2=20;
         $sum=$num1+$num2;
 
-        return view('home',['result'=>$sum]);
+        return view('home',['marks'=>$sum]);
     }
 }
